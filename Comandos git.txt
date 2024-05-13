@@ -1,0 +1,27 @@
+Comandos git
+
+mkdir "nome do diretório" = Make dir, criar um diretório
+cd = entrar na pasta
+cd .. = volta uma pasta
+git init = transformar em um repositório git
+rm -rf .git = remover .git
+ls = listar o conteúdo da pasta
+cat = exibir o conteúdo do arquivo
+git clone "URL"= clonar diretório da url para o pc
+git clone "URL" "ex:--branch feature-1" --single-branch = selecionar apenas 1 branch para clonar
+touch "README.md" = criando um arquivo vazio readme na pasta
+git commit -m"nome do commit" = comitar
+git log = ver o log da comitagem
+echo "resumos/ > .gitignore" = mandar o arquivo para outro lugar
+git restore "nome do arquivo a restaurar" = restaurar o arquivo 
+git restore --staged "arquivo" = restaura o arquivo
+git commit --amend -m "mensagem alterada do ultimo commit" = alterar a mensagem do ultimo commit
+git add . = adicionar todos arquivos ao track
+git reset --soft "hash do commit" = 
+git reset --mixed "hash do commit" (padrão) = 
+git reset --hard "hash do commit" =
+git reflog = log dos commits e resets
+git push -u origin main = enviar alterações do repositório local para o origin (remoto)
+git remote -v = mostra os repositórios remotos que você está conectado
+git remote add "nome que deseja dar ao repositório remoto. padrão: origin" "URL do repositório" 
+git status = mostrar os status da árvore de trabalho
